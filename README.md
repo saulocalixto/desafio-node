@@ -76,9 +76,9 @@ Caso não queria utilizar o docker para executar a aplicação, será necessári
 
 No Ubuntu para prosseguir com a instalação basta executar os comandos abaixo:
 
-    sudo apt-get update; \ sudo apt-get install -y apt-transport-https && \ sudo apt-get update && \ sudo apt-get install -y dotnet-sdk-5.0
+    sudo apt-get update && sudo apt-get install -y apt-transport-https && sudo apt-get update && sudo apt-get install -y dotnet-sdk-5.0
 
-O SDK pode ser baixado também no próprio site da microsoft: [baixar aqui](https://dotnet.microsoft.com/download).
+Para outras versões do Linux, ou até mesmo outro SO, o SDK pode ser baixado também no próprio site da microsoft: [baixar aqui](https://dotnet.microsoft.com/download).
 
 Agora com o SDK instalado para rodar a aplicação é preciso primeiro entrar no diretório que contém o projeto de inicialização:
 
